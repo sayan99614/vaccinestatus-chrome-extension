@@ -1,0 +1,13 @@
+{
+    "manifest_version":2,
+    "name":"vaccinechecker",
+    "discription":"you can check and book vaccine by the help of this extension 👍",
+    "version":"1.0.0",
+    "icons":{"128":"vaccine_2.png"},
+    "browser_action":{
+        "default_icon":"vaccine_2.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab"]
+
+}

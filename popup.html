@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>autoaccept</title>
+    <style>
+      body {
+        height: 50px;
+        width: 300px;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .btn {
+        border: node;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #00695c;
+        color: white;
+      }
+      .img {
+        width: 50px;
+        height: 50px;
+      }
+      .box {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+      }
+      .card-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="flex-container" id="flex-container">
+      <div class="flex">
+        <div class="text-center">
+          <img src="lamp.png" class="img" alt="" />
+        </div>
+        <h3>check vaccine avaliblity</h3>
+      </div>
+      <br />
+      <div class="flex-container">
+        <form action="#" id="check_avl" method="POST">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">pincode</label>
+            <input
+              type="number"
+              class="form-control"
+              name="pincode"
+              id="pincode"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">date</label>
+            <input type="date" name="date" id="date" class="form-control" />
+          </div>
+          <div class="text-center d-flex justify-content-between">
+            <div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            <div>
+              <button type="reset" class="btn btn-primary">reset</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
