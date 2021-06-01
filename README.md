@@ -12,7 +12,7 @@ by this extension you can check vaccine availability  status as well as you can 
 ✔️2 go to your chrome customization section open the extension section
 ![image](https://user-images.githubusercontent.com/52071270/120309544-fc8e7200-c2f2-11eb-8e93-b720460539a7.png)
 <br/>
-✔️3 click on load unpacked
+✔️3 Enable developer mode and click on load unpacked
 ![Screenshot (4)_LI](https://user-images.githubusercontent.com/52071270/120309714-2e9fd400-c2f3-11eb-8587-482a5c605ecd.jpg)
 <br/>
 ✔️4 choose the downloaded file 
